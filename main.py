@@ -14,7 +14,7 @@ def main():
 
         for i in range(5):
 
-            lb = lotto_balls.lotto_balls('Ball: '+str(i+1)+"; "  ,random.randint(1, 69))
+            lb = lotto_balls.lotto_balls('Ball: '+str(i+1)+": "  ,random.randint(1, 69))
             print(lb.name, lb.num)
 
         pb = power_ball.power_ball('Powerball', random.randint(1, 26))
